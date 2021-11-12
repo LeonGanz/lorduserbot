@@ -1458,14 +1458,23 @@ _Tunggu Proses Upload Media_`
 									let di = await getBuffer(ac)
 									await Zeeone.sendMessage(from,di,image,{thumbnail: thumbnail, quoted: Ofc})
 									break
-						case 'waifu': case 'loli': case 'husbu': case 'milf': case 'cosplay': case 'wallml':
-									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
-									reply(mess.wait)
-									let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
-									let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
-									Zeeone.sendMessage(from, wipi, image, {quoted: Ofc})
-									limitAdd(sender, limit)
-									break
+       case 'loli':
+       case 'husbu':
+       case 'milf':
+       case 'cosplay':
+       case 'wallml':
+              /////////////////////////////////////////////////////////////////////////////////////////////////////////////////if (!isRegister) return reply(`You are not verified\n\nReply this chat and send bot password\n\nHint : \nPassword contains 4 digit number\nCheck password at: https://ikyy-chan02.github.io`)
+              let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
+              let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
+              fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = ( await ikyy.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
+              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
+              prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
+              ikyy.relayWAMessage(prep)
+              fs.unlinkSync(`./${sender}.jpeg`)
+              break
 						case 'asupan':{
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
 									reply(mess.wait)
