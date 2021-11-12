@@ -71,7 +71,7 @@ const menubot = require('./Menu/zeeoneofc.js')
 const { wikiSearch } = require('./lib/wiki.js')
 const { addBadword, delBadword, isKasar, addCountKasar, isCountKasar, delCountKasar } = require("./lib/badword");
 const { addCommands, getJawabanCmd, getSoalCmd, getCommandsPosi, checkCommands, isCreated, deleteCommands } = require('./lib/commands')
-const lolkey = '78bd89cd7b4d6205e3e18061' 
+const lolkey = 'e54205a4ca2caa368cc067bb' 
 
 			const voting = JSON.parse(fs.readFileSync('./database/voting/voting.json'))
 			const ban = JSON.parse(fs.readFileSync('./database/banned.json'))
@@ -97,7 +97,7 @@ const lolkey = '78bd89cd7b4d6205e3e18061'
 			const scommand = JSON.parse(fs.readFileSync('./database/scommand.json')) 
 			const imagebb = "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg"
 
-zeksApikey = 'K2WghciJ79uLksp2oMvsSIy7ukK' //ganti pake apikey lu biar limitnya gk cepet abis 
+zeksApikey = '328HYjt1oJpXKNIliMaze3Y6coq' //ganti pake apikey lu biar limitnya gk cepet abis 
 ApiZeks = 'https://api.zeks.me' // regis disini klo mau dapat apikeynya
 
 let single = false
@@ -427,20 +427,19 @@ var waktoo = date.getHours();
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
-•> 25k / BULAN (PREMIUM)
-Isi sendiri
+•> 25k / BULAN (PREMIUM
 
 Minat? Pm wa.me/${owner_number}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
-					errorLink: 'Link Error Lord',
-					succes: '```[ ✓ ]``` Sukses Lord',
+					errorLink: 'Link Error',
+					succes: '```[ ✓ ]``` Sukses ',
 					only: {
-						personal: 'Only Private Chat Lord',
-						admin: 'Khusus Admin Group Lord',
-						group: 'Khusus Dalam Grup Lord',
-						 prem: 'Khusus User Premium Lord',
-						owner: 'Khusus Owner Bot Lord',
+						personal: 'Only Private Chat',
+						admin: 'Khusus Admin Group',
+						group: 'Khusus Dalam Grup',
+						 prem: 'Khusus User Premium',
+						owner: 'Khusus LeonGanz',
 						 }
 					} 
 	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
@@ -451,7 +450,7 @@ Minat? Pm wa.me/${owner_number}`,
 		const fgclink2 = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, 'jpegThumbnail': thumbnail}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":`「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, "h": `Hmm`,'seconds': '99999', 'caption': `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, 'jpegThumbnail': thumbnail}}}
 		const floc = {contextInfo: {"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant':`${numbernye}@s.whatsapp.net`, 'remoteJid': '6283136505591-1614953337@g.us', 'quotedMessage': {"locationMessage": {"degreesLatitude": 41.893714904785156, "degreesLongitude": -87.63370513916016, "name": `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}` , 'jpegThumbnail': thumbnail}}}}
-		const fkontak = {key: {fromMe: false, participant: `${numbernye}@s.whatsapp.net`, ...(from ? {remoteJid: "status@broadcast" } : {}) }, message: {contactMessage: {displayName: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, vcard: 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'N:Bot;Lord;Userbot;;\n' + 'FN: SUBSCRIBE YT ZEEONE OFC\n' + 'item1.TEL;waid=62887435047326:+62887435047326\n' + 'item1.X-ABLabel:Telepon\n' + 'END:VCARD'}}}
+		const fkontak = {key: {fromMe: false, participant: `${numbernye}@s.whatsapp.net`, ...(from ? {remoteJid: "status@broadcast" } : {}) }, message: {contactMessage: {displayName: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, vcard: 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'N:Bot;Yui;bot;;\n' + 'FN: SUBSCRIBE YT LeonGanz\n' + 'item1.TEL;waid=62887435047326:+62887435047326\n' + 'item1.X-ABLabel:Telepon\n' + 'END:VCARD'}}}
 		const isUrl = (url) => {
 				return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
 				}
@@ -1056,11 +1055,11 @@ Minat? Pm wa.me/${owner_number}`,
 						}
     if (isCmd && msgFilter.isFiltered(from) && !isGroup) {
 						console.log(color('[CMD]','magenta'), color(moment(Ofc.messageTimestamp * 1000).format('DD/MM/YYYY | HH:mm:ss'), 'white'), color(`${command}`,'magenta'), 'from', color(`${sender.split("@")[0]}`,'green'))
-						return reply('Jangan Spam Lord')
+						return reply('Jangan Spam ')
 						} 
 					if (isCmd && msgFilter.isFiltered(from) && isGroup) {
 						console.log(color('[CMD]','magenta'), color(moment(Ofc.messageTimestamp * 1000).format('DD/MM/YYYY | HH:mm:ss'), 'white'), color(`${command}`,'magenta'), 'from', color(`${sender.split("@")[0]}`,'green'))
-						return reply('Jangan Spam Lord')
+						return reply('Jangan Spam ')
 					}
     if (autovn){
 						await Zeeone.updatePresence(from, Presence.recording)
@@ -1254,12 +1253,12 @@ NOTE :
 }
 									break
 						case 'giftlimit': case 'givelimit':
-									if (isPremium) return reply(`User Premium Tidak Bisa Melakukan Gift Limit Lord`)
+									if (isPremium) return reply(`User Premium Tidak Bisa Melakukan Gift Limit `)
 									if (!isGroup) return reply(mess.only.group)
 									if (!q.includes('|')) return  reply(`Contoh ${prefix + command} _@user | Nominal_`)
 									const tujuan = q.substring(0, q.indexOf('|') - 1)
 									const jumblah = q.substring(q.lastIndexOf('|') + 1)
-									if(isNaN(jumblah)) return await reply('Jumlah Harus Berupa Angka Lord')
+									if(isNaN(jumblah)) return await reply('Jumlah Harus Berupa Angka ')
 									if (jumblah < 1 ) return reply(`minimal transfer 1`)
 									if (getLimit(sender, limitawal, limit) < jumblah) return reply(`Limit Mu Tidak Mencukupi Untuk Melakukan Gift Limit`)
 									const tujuantf = `${tujuan.replace("@","")}@s.whatsapp.net`
@@ -1440,7 +1439,7 @@ _Tunggu Proses Upload Media_`
 										}
 									break
 						case 'wiki': case 'wikipedia':
-									if (args.length < 1) return reply(' Yang Mau Di Cari Apa Lord? ')
+									if (args.length < 1) return reply(' Yang Mau Di Cari Apa? ')
 									reply(mess.wait)
 									teks = args.join(' ')
 									res = await wikiSearch(teks).catch(e => {
@@ -1475,7 +1474,7 @@ _Tunggu Proses Upload Media_`
 									randIndex = Math.floor(Math.random() * jsonData.length);
 									randKey = jsonData[randIndex];
 									p = await getBuffer(randKey.result)
-									Zeeone.sendMessage(from, p, video, { quoted:  Ofc, mimetype: 'video/mp4', caption: 'Asupan Lord'})
+									Zeeone.sendMessage(from, p, video, { quoted:  Ofc, mimetype: 'video/mp4', caption: 'Asupan'})
 									limitAdd(sender, limit)
 									}
 									break
@@ -1486,7 +1485,7 @@ _Tunggu Proses Upload Media_`
 									break
 						case 'afk':
 									if (!isGroup) return reply(mess.only.group)
-									if (isAfkOn) return reply('Kamu dalam mode afk Lord')
+									if (isAfkOn) return reply('Kamu dalam mode afk')
 									let reason = body.slice(5) ? body.slice(5) : 'Nothing.'
 									afk.addAfkUser(sender, Date.now(), reason, _afk)
 									mentions(`─「 *AFK MODE* 」─
@@ -1535,7 +1534,7 @@ Alasan : ${reason}`, [sender], true)
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
 									if (!Ofc.key.fromMe && !isOwner) return reply(mess.only.owner)
-										if (!isUrl(args[0]) && !args[0].includes('https://chat.whatsapp.com/')) return reply('Linknya Invalid Lord')
+										if (!isUrl(args[0]) && !args[0].includes('https://chat.whatsapp.com/')) return reply('Linknya Invalid')
 										reply('Tunggu Sebentar Otw Masuk Group')
 										link = args[0].replace('https://chat.whatsapp.com/','')
 										fak = Zeeone.query({ json: ['action', 'invite', link],
@@ -1660,16 +1659,16 @@ Alasan : ${reason}`, [sender], true)
 									if (!isOwner && !Ofc.key.fromMe) return reply(mess.only.owner)
 									if (args.length < 1) return reply(`Kirim perintah ${command} nama\n\nContoh : ${command} Alphabot`)
 									Zeeone.updateProfileName(q)
-									.then((res) => reply('Sukses Lord'))
-									.catch((err) => reply('Eror Lord'))
+									.then((res) => reply('Sukses'))
+									.catch((err) => reply('Eror'))
 									 }
 									break
 						case 'setbiobot':{
 									 if (!isOwner && !Ofc.key.fromMe) return reply(mess.only.owner)
 									if (args.length < 1) return reply(`Kirim perintah ${command} nama\n\nContoh : ${command} Alphabot`)
 									Zeeone.setStatus(q)
-									.then((res) => reply('Sukses Lord'))
-									.catch((err) => reply('Eror Lord'))
+									.then((res) => reply('Sukses'))
+									.catch((err) => reply('Eror'))
 									}
 									break
 						case 'grup': case 'grub': case 'group':
@@ -1769,7 +1768,7 @@ Alasan : ${reason}`, [sender], true)
 											ran = getRandom('.png')
 											exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 												fs.unlinkSync(media)
-												if (err) return reply('Eror Lord')
+												if (err) return reply('Eror')
 												buffer = fs.readFileSync(ran)
 												Zeeone.updateProfilePicture(from, buffer)
 												fs.unlinkSync(ran)
@@ -1808,7 +1807,7 @@ Alasan : ${reason}`, [sender], true)
 									if (!isPremium) return reply(`Kamu bukan user premium\nkirim perintah ${prefix}daftarprem untuk membeli premium`)
 									let cekExp = ms(await premium.getPremiumExpired(sender, _premium) - Date.now())
 									let premiumnya = `*「 PREMIUM EXPIRE 」*\n\n🆔 *ID*: ${sender}\n⏰ *Expired*: ${cekExp.days} day(s) ${cekExp.hours} hour(s) ${cekExp.minutes} minute(s)`
-									reply(`${isOwner?'Unlimited Prem (My Lord)':premiumnya}`)
+									reply(`${isOwner?'Unlimited Prem (My Yui)':premiumnya}`)
 									break
 						
 						case 'listprem': case 'listpremium': case 'premiumlist': case 'premlist':
@@ -1832,11 +1831,11 @@ Alasan : ${reason}`, [sender], true)
 									if(!isGroup) return reply(mess.only.group)
 									if (q === 'add') {
 										_sewa.addSewaGroup(from, args[1], sewa)
-										reply(`Sukses Lord`)
+										reply(`Sukses`)
 									} else if (q === 'del') {
 										sewa.splice(_sewa.getSewaPosition(from, sewa), 1)
 										fs.writeFileSync('./database/sewa.json', JSON.stringify(sewa))
-										reply(`Sukses Lord`)
+										reply(`Sukses`)
 										} else {
 										}
 									}
@@ -1866,7 +1865,7 @@ Alasan : ${reason}`, [sender], true)
 									if (!isBotGroupAdmins) return reply(`Jadikan Bot Sebagai Admin Group`)
 									if (args.length === 0) return reply(`Pilih on atau off`)
 									if (args[0] == 'on'){
-										if (isBadword) return reply(`Udah aktif Lord`)
+										if (isBadword) return reply(`Udah aktif`)
 										grupbadword.push(from)
 										fs.writeFileSync('./database/grupbadword.json', JSON.stringify(grupbadword))
 										reply(`antibadword grup aktif, kirim ${prefix}listbadword untuk melihat list badword`)
@@ -1908,13 +1907,13 @@ Alasan : ${reason}`, [sender], true)
 						case 'addbadword':
 									if (!isOwner && !Ofc.key.fromMe)return reply(mess.only.owner) 
 									if (Ofc.message.extendedTextMessage === undefined || Ofc.message.extendedTextMessage === null) {
-										if (isKasar(args[0].toLowerCase(), badword)) return reply(`Cari nama lain Lord`)
+										if (isKasar(args[0].toLowerCase(), badword)) return reply(`Cari nama lain`)
 										addBadword(args[0].toLowerCase(), badword)
-										reply(`Sukses Lord`)
+										reply(`Sukses`)
 										} else {
 											if (isKasar(Ofc.message.extendedTextMessage.contextInfo.quotedMessage.conversation.toLowerCase(), badword)) return reply(`Udah ada`)
 											addBadword(Ofc.message.extendedTextMessage.contextInfo.quotedMessage.conversation.toLowerCase(), badword)
-											reply(`Sukses Lord`)
+											reply(`Sukses`)
 										}
 									break
 						case 'delbadword':{
@@ -1922,11 +1921,11 @@ Alasan : ${reason}`, [sender], true)
 									if (Ofc.message.extendedTextMessage === undefined || Ofc.message.extendedTextMessage === null) {
 										if (!isKasar(args[0].toLowerCase(), badword)) return reply(`Tidak ada dalam list`)
 										delBadword(args[0].toLowerCase(), badword)
-										reply(`Sukses Lord`)
+										reply(`Sukses`)
 										} else {
 											if (!isKasar(Ofc.message.extendedTextMessage.contextInfo.quotedMessage.conversation.toLowerCase(), badword)) return reply(`Tidak ada dalam list`)
 											delBadword(Ofc.message.extendedTextMessage.contextInfo.quotedMessage.conversation.toLowerCase(), badword)
-											reply(`Sukses Lord`)
+											reply(`Sukses`)
 										}
 									}
 									break
@@ -2015,8 +2014,8 @@ Alasan : ${reason}`, [sender], true)
 									break
 						case 'caripesan': case 'searchmessage':
 									if (!Ofc.key.fromMe && !isPremium) return reply(mess.only.prem)
-									if(!q)return reply('Pesannya apa Lord?')
-									reply('Otw Lord')
+									if(!q)return reply('Pesannya apa?')
+									reply('Otw')
 									let v = await Zeeone.searchMessages(q,from,10,1)
 									let s = v.messages
 									let el = s.filter(v => v.message)
@@ -2050,7 +2049,7 @@ Alasan : ${reason}`, [sender], true)
 									break
 						case 'toptt': case 'tovn':
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
-									if (!isQuotedAudio) return reply(`Reply Audionya Lord`)
+									if (!isQuotedAudio) return reply(`Reply Audionya`)
 									reply(mess.wait)
 									var encmedia = JSON.parse(JSON.stringify(Ofc).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 									var media = await Zeeone.downloadAndSaveMediaMessage(encmedia)
@@ -2067,7 +2066,7 @@ Alasan : ${reason}`, [sender], true)
 						case 'toimg': 
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
 									reply(mess.wait)
-									if (!isQuotedSticker) return reply('Reply stiker Lord')
+									if (!isQuotedSticker) return reply('Reply stiker')
 									if ((isMedia && !Ofc.message.videoMessage || isQuotedImage || isQuotedSticker && args.length == 0)) {
 										encmedia = JSON.parse(JSON.stringify(Ofc).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 										media = await Zeeone.downloadAndSaveMediaMessage(encmedia)
@@ -2076,17 +2075,17 @@ Alasan : ${reason}`, [sender], true)
 											fs.unlinkSync(media)
 											if (err) return reply('❎ Gagal, pada saat mengkonversi sticker ke gambar ❎')
 											buffer = fs.readFileSync(ran)
-											Zeeone.sendMessage(from, buffer, image, {thumbnail : thumbnail, caption:'Sukses Lord',quoted:Ofc})
+											Zeeone.sendMessage(from, buffer, image, {thumbnail : thumbnail, caption:'Sukses',quoted:Ofc})
 											fs.unlinkSync(ran)
 											})
 										} else {
-											reply(`Reply Stiker Nya Lord`)
+											reply(`Reply Stiker Nya`)
 										}
 										limitAdd(sender, limit)
 									break
 						case 'togif':
 									if (isLimit(sender, isPremium, isOwner, limitawal, limit)) return reply(mess.limit)
-									if (!isQuotedSticker) return reply('Reply stiker Lord')
+									if (!isQuotedSticker) return reply('Reply stiker')
 									reply(mess.wait)
 									if (Ofc.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated == true)
 									encmedia = JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
@@ -2094,7 +2093,7 @@ Alasan : ${reason}`, [sender], true)
 									moew = await webp2gifFile(media)
 									console.log(moew)
 									Frd = await getBuffer(moew.result)
-									Zeeone.sendMessage(from, Frd, video, { mimetype: 'video/gif', caption: 'Sukses Lord', quoted: Ofc })
+									Zeeone.sendMessage(from, Frd, video, { mimetype: 'video/gif', caption: 'Sukses', quoted: Ofc })
 									limitAdd(sender, limit)
 									break
 						case 'tovideo': case 'tomp4':
@@ -2105,7 +2104,7 @@ Alasan : ${reason}`, [sender], true)
 										ger = isQuotedSticker ? JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : Ofc
 										owgi = await Zeeone.downloadAndSaveMediaMessage(ger)
 										webp2mp4File(owgi).then(res=>{
-											Zeeone.sendMessage(from, res.result, video, { mimetype: Mimetype.mp4, filename: 'tovideo.mp4',caption: 'Sukses Lord', quoted: Ofc})
+											Zeeone.sendMessage(from, res.result, video, { mimetype: Mimetype.mp4, filename: 'tovideo.mp4',caption: 'Sukses', quoted: Ofc})
 											})
 										}else {
 											reply('reply stiker')
@@ -2218,7 +2217,7 @@ Alasan : ${reason}`, [sender], true)
 									if (!isOwner && !Ofc.key.fromMe) return reply(mess.only.owner)
 									Zeeone.updatePresence(from, Presence.avaible)
 									fs.writeFileSync('./database/limit.json', ('[]'))
-									reply('Sukses Lord')
+									reply('Sukses')
 									await sleep(5000)
 									break
 						case 'bc': case 'broadcast':
@@ -2228,7 +2227,7 @@ Alasan : ${reason}`, [sender], true)
 									for (let _ of anjir) {
 										Zeeone.sendMessage(`${_.jid}`, 'BROADCAST' + '\n\n' + q, text, {quoted: ftroli})
 										}
-									reply('Sukses Lord')
+									reply('Sukses')
 									break
 						case 'faktaunik':{
 									const faktau = ["Negara Indonesia berada di posisi ke-4 sebagai Negara Terindah di Dunia versi situs First Choice.","Di Italia, dalam aturannya minuman Cappuccino hanya boleh di minum sebelum waktu siang.","AS, Australia, Finlandia, Jerman dan Kanada adl negara maju tanpa UN. Tahukah anda sekolah trbaik di dunia ada di Finlandia walau tanpa UN.","","\"Jengkol is very nice\" komentar Pierre Bouvier vokalis Simple Plan.","Tiap satu kali jari kita mengklik mouse komputer, ada 1,42 kalori yang terbakar dalam tubuh. (Penelitian, Convert Anything to Calories).","Di Jepang kuno, prajurit diolesi minyak kodok pada tubuh mereka dengan keyakinan bahwa hal itu akan membuat tubuh mereka antirobek."," Di Jepang, ketiduran saat bekerja (inemuri) dapat ditolerir, karena dipandang sebagai kelelahan yang muncul akibat bekerja terlalu keras.","Gergaji mekanik awalnya diciptakan sebagai alat kedokteran untuk membantu melahirkan bayi.","Jangan sering mengatakan kata  di Australia dan Selandia Baru. Di sana, kata berarti mengajak untuk melakukan hubungan seks.","Jamur merang Laetiporus dikenal sebagai julukan \"ayam hutan\" karena konon rasanya mirip seperti daging ayam goreng.","Kaki katak merupakan hidangan istimewa di eropa. Tahukah Anda: sekitar 80% impor katak Eropa berasal dari Indonesia.","Jika Anda mengetik \"do the harlem shake\" di search bar YouTube, layar akan melakukan Harlem Shake!. [Google Chrome]","Melihat melalui lubang kecil akan segera meningkatkan penglihatan Anda sementara.","YouTube menyebutkan rata-rata ada 4000 video baru Harlem Shake yang diunggah setiap hari. [Yahoo!]","Semut memiliki kuburan sendiri. Tapi tahukah anda: Gurita memiliki kebun dan suka berkebun. (wikipedia)","Coklat mengandung Theobromine, molekul organik yang dapat membantu menguatkan enamel gigi. (Penelitian dari Tulane University).","Wanita 2 kali lebih banyak menggunakan emoticon dalam pesan teks dibandingkan pria. (Penelitian di Rice University)","Biarpun Buzz Aldrin adalah orang kedua yang menginjak di bulan tetapi ia adalah orang pertama yang membuang kotoran di ruang angkasa.","Fakta unik berikutnya adalah, Psikolog mengatakan bahwa mengirim dan menerima pesan teks benar-benar dapat meningkatkan mood Anda ketika Anda merasa kesepian. (Telegraph)","Thailand merupakan satu-satunya negara di Asia Tenggara yang tidak pernah dijajah.","Musik memiliki kemampuan untuk memperbaiki kerusakan otak serta mengembalikan kenangan yang hilang. (cracked .com)"," Perasaan kesepian memicu respon yang sama di otak sebagai rasa sakit fisik. (BBCnews)","Di Cape Town, Afrika Selatan, remaja laki-laki yang memiliki gigi ompong dianggap tampan / maskulin.","Semakin pahit cokelat (tinggi zat theobromine), semakin tinggi manfaatnya. Rajin mengkonsumsi 1bar cokelat/hari dapat menyembuhkan batuk kronis.","Kata \"Mouse\" (tikus) berasal dari turunan Bahasa Sansekerta \"Mus\" yang berarti \"pencuri\".","Tidur Siang (Power Nap) trbukti menambah tinggi badan, dikrnkan saat kita tidur siang hormon pertumbuhan (Growth Hormone) lbh aktif bekerja.","Bilangan prima terbesar di dunia saat ini panjangnya 17 juta digit angka, cukup banyak untuk mengisi 28 lembar halaman pada buku novel.","Menurut sebuah studi, minum teh hijau setelah makan ikan membantu menghalangi zat Mercury yang terkandung dalam ikan memasuki aliran darah."," Memperpanjang usia handphone hingga 4 tahun dapat mengurangi dampak lingkungan sampai 40 persen. [Hasil studi di Swiss]","Duduk bersama dgn teman-teman / keluarga utk makan bersama, dpt meningkatkan kebahagiaan & membantu meringankan depresi. [ehealthnewsdaily]","Abibliophobia adalah fobia atau ketakutan terhadap kehabisan bahan bacaan.","Pada abad pertengahan di Eropa, garam sangat mahal harganya, sehingga disebut sebagai \"emas putih\".","Mengunyah permen karet dapat meningkatkan kemampuan berpikir cepat dan kewaspadaan hingga 10 persen. [Jurnal Brain and Cognition]","Wanita yang sedang stres selama kehamilannya cenderung melahirkan anak-anak yang pemarah. [Institute of Psychiatry, King College London]","","35. Disarankan supaya membeli sepatu pada sore hari. Sebab, setelah seharian berjalan, di sore hari kaki akan membesar 5-8 persen.","Musik memiliki kemampuan untuk memperbaiki kerusakan otak serta mengembalikan kenangan yang hilang. [cracked .com]","Menurut penelitian baru, usia harapan hidup anak band rata-rata lebih tinggi dibandingkan musisi yang memilih solo karir. (detikHealth)","Pulau Dewata Bali merupakan 1 dari 10 pulau paling romantis di dunia. [majalah Travel+Leisure]","Universitas di Jepang selalu melakukan upacara peringatan bagi hewan (contoh: tikus) yang mati dalam pengujian laboratorium. [web.archive .org]","Berkedip memberikan otak Anda istirahat sebentar. [para ilmuan di Japan’s Osaka University]","Wanita yang bahagia dalam sebuah pernikahan akan mengalami berat badan naik setengah pound (0,22 kg) setiap 6 bulan. [DailyMail]","Rasa cemburu berlebihan bisa digolongkan penyakit jiwa, krna dpt mendorong ssorg utk bunuh diri / menghabisi nyawa org lain. [riset]","","Mengkonsumsi buah tomat beberapa kali dlm kurun waktu seminggu dpt mengatasi perasaan depresi. [peneliti di Tianjin Medical Univ., Cina]"," Perasaan kesepian memicu respon yang sama di otak sebagai rasa sakit fisik. [BBCnews]","Di Cape Town, Afrika Selatan, remaja laki-laki yang memiliki gigi ompong dianggap tampan / maskulin.","Memeluk orang yg disayangi dpt membantu menurunkan tekanan darah, mengurangi stres dan","kecemasan, bahkn dpt meningkatkan memori. [Dailymail]","Kata \"Mouse\" (tikus) berasal dari turunan Bahasa Sansekerta \"Mus\" yang berarti \"pencuri\".Berjalan kaki atau bersepeda ke sekolah mempertajam konsentrasi siswa di kelas dan tetap bertahan sekitar 4 jam kemudian. [Medical Daily]","Menurut riset pasar global Euromonitor International, pria Korea adalah pria yang paling suka bersolek dari pria lain di dunia.","Rata-rata orang akan merasa 100 persen sehat / fit hanya 61 hari dalam setahun. (Penelitian di Inggris)","Polydactyl Cat adalah jenis kucing yang memiliki jempol di kaki mereka.","Hanya dengan mengurangi brightness dari televisi, anda mampu berhemat lebih dari Rp 1,5 juta setahun. [kompas]","Di Jerman, tahanan yg ingin meloloskan diri dr penjara adl bukan mrupakn perbuatan ilegal. Krn itu salah1 naluri dasar manusia untuk kebebasan.","Wanita merasa diri mereka terlihat paling jelek dan terlihat lebih tua pada hari Rabu pukul 15.30 . [studi baru dari St Tropez]Orang yang rutin bermain video game ternyata memiliki penalaran yang baik dibanding kebanyakan orang. (detikHealth)","Nama \"Gorila\" berasal dari kata Yunani \"Gorillai\" yang berarti \"perempuan berbulu\".","IBM mengatakan bahwa dalam kurun waktu 5 tahun ke depan, komputer bakal mirip manusia yang bisa melihat, mendengar, mencium dan merasakan.","Selama abad ke-13, kata \"nice\" sebenarnya berarti “stupid”, \"senseless\" dan “foolish\".","59. 49% dari pemilik Smartphone adalah jomblo. (Survei, \"2012 Online User Behavior and Engagement Study\")","Fakta Unik","60. Gazzarella adalah keju mozzarella yang terbuat dari susu kucing. 61. Rata-rata orang melihat / mengecek ponselnya sekitar 150 kali sehari. (Laporan Nokia pada MindTrek 2010)","Lalat dapat menyalurkan sekitar 300 bakteri setiap kali hinggap di benda.","Tertawa dapat meningkatkan aktivitas antibodi sekitar 20%, juga membantu untuk menghancurkan virus dan sel-sel tumor.","Fobia matematika (mathematics anxiety) memicu respon yang sama di otak sbg rasa sakit fisik. Gejalanya yaitu melihat angka saja sudah nyeri."," Karakter kartun Bugs Bunny diberi pangkat kehormatan sersan-mayor di Korps Marinir AS pada akhir Perang Dunia II. (wikipedia)","Apel yang ditaruh di ruang terbuka akan matang 10 kali lebih cepat dibandingkan dengan apel yang ditaruh di kulkas.","Ungkapan 'Smitten' adalah untuk menyebut 'naksir' dalam bahasa Inggris.","Menurut etiket internasional, sebuah jabat tangan yang tepat dan baik harus berlangsung selama sekitar 3 detik & dilepaskan setelah goyang.","Ketika kita sedang jatuh cinta, otak akan memproduksi dopamin ekstra, bahan kimia yang membuat seseorang menjadi gembira berlebihan."," \"Mwahahaha\" dan \"lolz\" telah ditambahkan ke Kamus Inggris Oxford.","Menurut penelitian, pria cenderung menurunkan volume suaranya ketika ia berbicara dg seseorang yg ia cintai, sementara perempuan sebaliknya.","Di Perancis, jajanan Arum Manis (Rambut Nenek) disebut \"Barbe á Papa\" yang berarti \"Jenggot Ayah\".","Menurut penelitian, PR terlalu banyak sebenarnya dapat menyebabkan siswa menjadi stres, depresi & mendapat nilai lebih rendah.","Hangry adalah penggabungan kata dari \"Hungry\" dan \"Angry\", di pakai ketika anda sedang lapar dan marah.","Kentut dari bakteri membuat keju swiss memiliki lubang-lubang.","Mendengarkan musik benar-benar dapat mengurangi rasa sakit kronis hingga 20% dan membantu meringankan depresi hingga 25%. (sciencedaily)","Orang yang merasa kesepian memiliki kemungkinan mengalami kepikunan 70-80% lebih tinggi. (Journal of Neurosurgery Neurologi and Psychiatry)","Melamun dpt memendekkan telomere (bagian paling ujung sel DNA) yang berperan dlm menjaga kestabilan sel, dimana dapat mempercepat proses penuaan."]
@@ -2567,7 +2566,7 @@ Alasan : ${reason}`, [sender], true)
 									if (args.length < 1) return reply(`Penggunaan ${prefix}exif nama|author`)
 									if (!arg.split('|')) return reply(`Penggunaan ${prefix}exif nama|author`)
 									exif.create(arg.split('|')[0], arg.split('|')[1])
-									reply('Sukses Lord')
+									reply('Sukses')
 									break
 						case 'owner':{
 							const ownerContact = [owner_number, "", "", "", "", "", "", "", "", "", ""]
@@ -2922,7 +2921,7 @@ break
 											includeStarred: false
 											})
 											}
-											reply(`Succes Lord`)
+											reply(`Succes`)
 											}
 									break
 						case 'tes': case 'test': case 'ping':{
@@ -2962,7 +2961,7 @@ break
 									])
 									.on('error', () => reply(mess.error))
 									.on('exit', () => {
-										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas Lord. Jadilah siswa yang rajin ರ_ರ`})
+										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas. Jadilah siswa yang rajin ರ_ರ`})
 										limitAdd(sender, limit)
 										})
 									}
@@ -2991,7 +2990,7 @@ break
 									])
 									.on('error', () => reply(mess.error))
 									.on('exit', () => {
-										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas Lord. Jadilah siswa yang rajin ರ_ರ`})
+										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas. Jadilah siswa yang rajin ರ_ರ`})
 										limitAdd(sender, limit)
 										})
 									}
@@ -3020,7 +3019,7 @@ break
 									])
 									.on('error', () => reply(mess.error))
 									.on('exit', () => {
-										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas Lord. Jadilah siswa yang rajin ರ_ರ`})
+										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas. Jadilah siswa yang rajin ರ_ರ`})
 										limitAdd(sender, limit)
 										})
 									}
@@ -3049,7 +3048,7 @@ break
 									])
 									.on('error', () => reply(mess.error))
 									.on('exit', () => {
-										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas Lord. Jadilah siswa yang rajin ರ_ರ`})
+										Zeeone.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: Ofc, caption: `Jangan Malas. Jadilah siswa yang rajin ರ_ರ`})
 										limitAdd(sender, limit)
 									})
 									}
@@ -3070,7 +3069,7 @@ break
 									break
 						case 'getnum': case 'getnomor': case 'getnumber':
 									if (!isGroup) return reply(mess.only.group)
-									if (Ofc.message.extendedTextMessage === undefined || Ofc.message.extendedTextMessage === null) return reply('Reply Pesan Target Lord')
+									if (Ofc.message.extendedTextMessage === undefined || Ofc.message.extendedTextMessage === null) return reply('Reply Pesan Target')
 									mentioned = Ofc.message.extendedTextMessage.contextInfo.mentionedJid[0]
 									reply(`${mentioned.split('@')[0]}`)
 									break
@@ -3128,8 +3127,8 @@ break
 										break
 						case 'addvn': case 'addaudio': case 'addmusic':
 									if (!Ofc.key.fromMe && !isOwner && !isPremium) return reply(mess.only.prem)
-									if (!isQuotedAudio) return reply('Reply Audionya Lord')
-									if (!q) return reply('Nama Audionya Apa Lord?')
+									if (!isQuotedAudio) return reply('Reply Audionya')
+									if (!q) return reply('Nama Audionya Apa?')
 									let addvn = JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 									let delb = await Zeeone.downloadMediaMessage(addvn)
 									audionye.push(q)
@@ -3139,7 +3138,7 @@ break
 									break
 						case 'delaudio': case 'delvn': case 'deletevn':
 									if (!Ofc.key.fromMe && !isOwner && !isPremium) return reply(mess.only.prem)
-									if (!q) return reply(`Nama Audio Yang Mau Di Hapus Apa Lord?`)
+									if (!q) return reply(`Nama Audio Yang Mau Di Hapus Apa?`)
 									try {
 										fs.unlinkSync(`./database/audio/${q}.mp3`)
 										let delaudio = audionye.indexOf(q)
@@ -3163,8 +3162,8 @@ break
 									break
 						case 'addimage': case 'addfoto': case 'addphoto':
 									if (!Ofc.key.fromMe && !isOwner && !isPremium) return reply(mess.only.prem)
-									if (!isQuotedImage) return reply('Reply Photonya Lord')
-									if (!q) return reply('Nama Photonya Apa Lord?')
+									if (!isQuotedImage) return reply('Reply Photonya')
+									if (!q) return reply('Nama Photonya Apa?')
 									let addimage = JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 									let dellb = await Zeeone.downloadMediaMessage(addimage)
 									imagenye.push(q)
@@ -3174,7 +3173,7 @@ break
 									break
 						case 'delimage': case 'deleteimage': case 'delfoto': case 'delphoto':
 									if (!Ofc.key.fromMe && !isOwner  && !isPremium) return reply(mess.only.prem)
-									if (!q) return reply(`Nama Sticker Yang Mau Di Hapus Apa Lord?`)
+									if (!q) return reply(`Nama Sticker Yang Mau Di Hapus Apa?`)
 									try {
 										fs.unlinkSync(`./database/image/${q}.webp`)
 										let delimage = imagenye.indexOf(q)
@@ -3196,8 +3195,8 @@ break
 									break
 						case 'addvideo': case 'addvid':
 									if (!Ofc.key.fromMe && !isOwner && !isPremium) return reply(mess.only.prem)
-									if (!isQuotedVideo) return reply('Reply Videonya Lord')
-									if (!q) return reply('Nama Videonya Apa Lord?')
+									if (!isQuotedVideo) return reply('Reply Videonya')
+									if (!q) return reply('Nama Videonya Apa?')
 									let addvideo = JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 									let dellbb = await Zeeone.downloadMediaMessage(addvideo)
 									videonye.push(q)
@@ -3207,7 +3206,7 @@ break
 									break
 						case 'delvideo': case 'deletevideo':
 									if (!Ofc.key.fromMe && !isOwner  && !isPremium) return reply(mess.only.prem)
-									if (!q) return reply(`Nama Video Yang Mau Di Hapus Apa Lord?`)
+									if (!q) return reply(`Nama Video Yang Mau Di Hapus Apa?`)
 									try {
 										fs.unlinkSync(`./database/video/${q}.webp`)
 										let delvideo = videonye.indexOf(q)
@@ -3229,8 +3228,8 @@ break
 									break
 						case 'addstik': case 'addstiker': case 'addsticker':
 									if (!Ofc.key.fromMe && !isOwner && !isPremium) return reply(mess.only.prem)
-									if (!isQuotedSticker) return reply('Reply stiker nya Lord')
-									if (!q) return reply('Nama Sticker Nya Apa Lord?')
+									if (!isQuotedSticker) return reply('Reply stiker nya')
+									if (!q) return reply('Nama Sticker Nya Apa?')
 									let addstik = JSON.parse(JSON.stringify(Ofc).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 									let delbb = await Zeeone.downloadMediaMessage(addstik)
 									setiker.push(q)
@@ -3240,7 +3239,7 @@ break
 									break
 						case 'delstik': case 'delstick': case 'delsticker': case 'delstiker':
 									if (!Ofc.key.fromMe && !isOwner  && !isPremium) return reply(mess.only.prem)
-									if (!q) return reply(`Nama Sticker Yang Mau Di Hapus Apa Lord?`)
+									if (!q) return reply(`Nama Sticker Yang Mau Di Hapus Apa?`)
 									try {
 										fs.unlinkSync(`./database/stick/${q}.webp`)
 										let delstik = setiker.indexOf(q)
@@ -3275,7 +3274,7 @@ break
 									if (args.length < 1) return reply(`Kirim perintah ${command} list respon`)
 									if (isCreated(q.toLowerCase(), sender, cmdDB) && !isOwner) return reply(`Anda bukan pembuat command!`)
 									deleteCommands(q.toLowerCase(), cmdDB)
-									reply('Sukses Lord')
+									reply('Sukses')
 									break
 						case 'listrespon': case 'listres':
 									if (!isOwner && !Ofc.key.fromMe) return
@@ -3351,7 +3350,7 @@ break
 									await limitAdd(sender, limit)
 									break
 						case 'naruto':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pNaruto(`${q}`)
 									.then(res => {
@@ -3359,7 +3358,7 @@ break
 										})
 									break
 						case 'shadow':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pShadow(`${q}`)
 									.then(res => {
@@ -3367,7 +3366,7 @@ break
 									})
 									break
 						case 'romantic':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pRomantic(`${q}`)
 									.then(res => {
@@ -3375,7 +3374,7 @@ break
 										})
 									break
 						case 'smoke':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pSmoke(`${q}`)
 									.then(res => {
@@ -3383,7 +3382,7 @@ break
 									})
 									break
 						case 'burnpaper':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pBurnPapper(`${q}`)
 									.then(res => {
@@ -3391,7 +3390,7 @@ break
 										})
 									break
 						case 'lovemsg':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pLoveMsg(`${q}`)
 									.then(res => {
@@ -3399,7 +3398,7 @@ break
 										})
 									break
 						case 'grass':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pMsgGrass(`${q}`)
 									.then(res => {
@@ -3407,7 +3406,7 @@ break
 										})
 									break
 						case 'doubleheart':
-									if (!q) return reply('teksnya Lord?')
+									if (!q) return reply('teksnya?')
 									reply(mess.wait)
 									pDoubleHeart(`${q}`)
 									.then(res => {
@@ -3415,7 +3414,7 @@ break
 										})
 									break
 						case 'coffecup':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pCoffeCup(`${q}`)
 									.then(res => {
@@ -3423,7 +3422,7 @@ break
 									})
 									break
 						case 'lovetext':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pLoveText(`${q}`)
 									.then(res => {
@@ -3431,7 +3430,7 @@ break
 									})
 									break
 						case 'butterfly':
-									if (!q) return reply('Teksnya Lord?')
+									if (!q) return reply('Teksnya?')
 									reply(mess.wait)
 									pButterfly(`${q}`)
 									.then(res => {
