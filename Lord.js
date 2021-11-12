@@ -1463,7 +1463,8 @@ _Tunggu Proses Upload Media_`
        case 'milf':
        case 'cosplay':
        case 'wallml':
-              /////////////////////////////////////////////////////////////////////////////////////////////////////////////////if (!isRegister) return reply(`You are not verified\n\nReply this chat and send bot password\n\nHint : \nPassword contains 4 digit number\nCheck password at: https://ikyy-chan02.github.io`)
+              if (isLimit(sender, isPremium, isOwner, limitawal, limit)) 
+              return reply(mess.limit)
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
@@ -2851,7 +2852,9 @@ ${teks}`, members_id, true)
 												reply(`${e}`)
 												}
 											break
-						case 'mystat': case 'stats': case 'infobot':{
+						case 'mystat': case 'stats':
+                                                                case '✓ STATICTIC':
+                                                               case 'infobot':{
 									try {
 										let totalchat = await Zeeone.chats.all()
 										let i = []
@@ -2915,7 +2918,7 @@ let qqppp = [{
                     },
                     "type": "RESPONSE"
                 }]
-                sendButLocation(from, teks, `LordUserbot™© | Allright Reserved.`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
+                sendButLocation(from, teks, `Yui-chan™© | LeonGanz.`, thumbnail, qqppp, {contextInfo: { mentionedJid: [nupe]}})
 				
 } catch (e){
 reply(`${e}`)
