@@ -423,15 +423,15 @@ var waktoo = date.getHours();
   		      var ucapannya = `Night 🌚 ${pushname}`
 				}
 				mess = {
-					wait: 'Proses Lord..',
+					wait: 'Proses..',
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
 •> 25k / BULAN (PREMIUM
 
 Minat? Pm wa.me/${owner_number}`,
-					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
-					error: 'Error Lord, Mungkin Lagi Diperbaiki',
+					ban: 'Maaf Nomor Kamu Sudah Di Banned!',
+					error: 'Error, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error',
 					succes: '```[ ✓ ]``` Sukses ',
 					only: {
