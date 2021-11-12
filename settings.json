@@ -1,9 +1,9 @@
 {
-    "self_mode": true,
+    "self_mode": false,
     "anti_delete": false,
     "anti_call": true,
     "autorespon_off": true,
-    "user_register": true,
+    "user_register": false,
 	"prefix": "#",
 	"ownerNumber": "6285608625102",
 	"ownername": "LeonGanz",
